@@ -16,6 +16,17 @@ describe('TestTDD', () => {
             assert.strictEqual(this.fizzBazz.returnMagicNumber(2), "2");
         });
 
+        it('Check "3"/"Fizz"', () => {
+            assert.strictEqual(this.fizzBazz.returnMagicNumber(3), "Fizz");
+        });
+
+        it('Check "4"', () => {
+            assert.strictEqual(this.fizzBazz.returnMagicNumber(4), "4");
+        });
+
+        it('Check "5"/"Bazz"', () => {
+            assert.strictEqual(this.fizzBazz.returnMagicNumber(5), "Bazz");
+        });
     });
 
 
