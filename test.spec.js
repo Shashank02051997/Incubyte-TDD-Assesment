@@ -41,5 +41,15 @@ describe('TestTDD', () => {
         });
     });
 
+    describe('Task 2', () => {
+        beforeEach(() => {
+            this.stringCalc = new StringCalculator();
+        });
+
+        it('Calculate empty string', () => {
+            assert.strictEqual(this.stringCalc.calculate(''), 0);
+        });
+
+    });
 
 });
