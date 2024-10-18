@@ -50,6 +50,18 @@ describe('TestTDD', () => {
             assert.strictEqual(this.stringCalc.calculate(''), 0);
         });
 
+        it('Calculate simple string with one element', () => {
+            assert.strictEqual(this.stringCalc.calculate('1'), 1);
+        });
+
+        it('Calculate simple string with one element 2', () => {
+            assert.strictEqual(this.stringCalc.calculate('9'), 9);
+        });
+
+        it('Calculate simple string with two elements', () => {
+            assert.strictEqual(this.stringCalc.calculate('1,0'), 1);
+        });
+
     });
 
 });
