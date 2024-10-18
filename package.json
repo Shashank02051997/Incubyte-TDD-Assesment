@@ -1,0 +1,16 @@
+{
+  "name": "tdd-assesment",
+  "version": "1.0.0",
+  "description": "Incubyte TDD Assesment",
+  "scripts": {
+    "test": "mocha \"./**/*.spec.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "5.2.0"
+  },
+  "dependencies": {
+    "chai": "^4.2.0"
+  }
+}
