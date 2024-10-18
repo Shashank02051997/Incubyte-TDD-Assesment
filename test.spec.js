@@ -1,6 +1,7 @@
 const assert = require('assert');
 
 const FizzBazz = require('./src/FizzBazz');
+const StringCalculator = require('./src/StringCalc');
 
 describe('TestTDD', () => {
     describe('Task 1', () => {
